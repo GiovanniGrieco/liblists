@@ -35,13 +35,14 @@ make
 Remember, if you are using _Linux_, to do ```make install``` or programs won't
 run.
 
-On _Windows_ the Makefile is broken, I made, hopefully temporally, a batch
+On _Windows_ the Makefile is broken. I made temporally a batch
 script. Just type
 ```Shell
 compile_windows.bat
 ```
 
-This automated process also compile example programs, just as a proof of concept on what can be done. Binaries will be saved in ```build``` folder.
+This automated process also compiles example programs, just as a proof of
+concept on what can be done. Binaries will be saved in ```build``` folder.
 
 ### Clean source folder from binaries
 ```Shell
