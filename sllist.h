@@ -28,7 +28,7 @@
  *  - Always begin counting from 1, not zero
  *  - To enumerate lists, please order the list from the oldest to the newest
  *  - This part is type-agnostic, so we are free to change the structure of
- *	nodeData and nothing else.
+ *	SLNodeData and nothing else.
  */
 
 struct ex__slNodeContent {
@@ -59,7 +59,7 @@ SLList sllist_addNode(SLList, SLNodeData);
  * PARAMS:
  *	- Target list
  *	- Number of nodes to add
- *    ... Data to associate to the new node
+ *    ... Data to associate to the new nodes
  * OUTPUT:
  * 	- Target list with the new nodes as the first
  */
@@ -67,7 +67,7 @@ SLList sllist_addNodes(SLList, int, ...);
 
 /*
  * Insert node to X position. In case X is bigger than the length of the list,
- * null nodes will be added.
+ * null nodes will be added
  * PARAMS:
  *	- Target list
  *	- Position to insert the node
@@ -77,7 +77,8 @@ SLList sllist_addNodes(SLList, int, ...);
  */
 SLList sllist_insertNode(SLList, unsigned int, SLNodeData);
 
-/* Delete node from Nth position
+/*
+ * Delete node from Nth position
  * PARAMS:
  * 	- Target list
  * 	- Index of the node to remove
