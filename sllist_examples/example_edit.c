@@ -1,6 +1,6 @@
 /*
  * sllist example
- * Generate 3 elements and print the list in order
+ * Generate 3 elements, edit the 2nd node and then print the list
  */
 
 #include "common.h"

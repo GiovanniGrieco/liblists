@@ -1,6 +1,6 @@
 /*
  * sllist example
- * Generate 3 elements, deletes one and print the list
+ * Generate 3 elements, delete one and print the list
  */
 
 #include "common.h"
