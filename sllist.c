@@ -162,7 +162,7 @@ int sllist_xchg(SLList list, unsigned int X, unsigned int Y)
 
 	/*
 	 * First cycle checks if X or Y exists; if so then we proceed to the
-	 * second cycle which checks the other and exchange them.
+	 * second cycle which checks the other and exchanges them.
 	 */
 
 	do {
@@ -175,7 +175,7 @@ int sllist_xchg(SLList list, unsigned int X, unsigned int Y)
 
 	while (i <= llen) {
 		if (i == X || i == Y) {
-			// temporary auxiliry to exchange
+			// temporary auxiliary to exchange
 			SLNodeData aux = *node_prev;
 
 			*node_prev = list->content;
@@ -188,6 +188,6 @@ int sllist_xchg(SLList list, unsigned int X, unsigned int Y)
 		list = list->next;
 	}
 
-	// il ciclo è terminato senza scambi
+	// no exchange made
 	return ENOTFOUND;
 }
