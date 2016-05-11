@@ -9,6 +9,14 @@ relative documentation for each function.
 The source code is licensed under GPLv3. You are free to contribute or fork this
 project.
 
+## Getting started
+
+This library is made by a compilation of microlibraries, each one focuses on a
+particular type of list.
+
+- _sllist_: Single Linked (NULL terminated) Lists
+- _other types will be released soon_
+
 ## Compile
 
 ### Pre-requisites
